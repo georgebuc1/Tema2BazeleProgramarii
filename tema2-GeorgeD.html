@@ -1,0 +1,97 @@
+><script>
+// Cerinta 1 :doua variabile “a“ si “b“ de tip numeric care sa fie verificate cu o conditie (IF)
+// ○ verifica daca a>b atunci sa se afiseze ca "Numarul a este mai mare decat b.";
+// ○ daca a<b sa se afiseze "Nu este indeplinita conditia a>b.";
+
+let a = 10;
+let b = 80;
+if(a>b){
+    console.log("Numarul a este mai mare decat b");
+        }
+else{
+    console.log("Nu este indeplinita conditia a > b");
+    }
+
+
+// Cerinta 2 : se da urmatorul array: masini=["bmw", "dacia", "mercedes", "lancia"]
+// ○ afiseaza in consola fiecare masina in felul urmator "Masina cu numarul 1 este
+// bmw." apoi "Masina cu numarul 2 este dacia." si asa mai departe; atentie la
+// afisare, masina de pe pozitia 0 trebuie sa apara in consola cu numarul 1,
+// masina cu pozitia 1 trebuie sa apara in consola cu numarul 2… Adica
+// numarul afisat in consola este +1 fata de pozitia din array.
+
+    masini=["BMW", "Dacia", "Mercedes", "Lancia"];
+    for(i=0;i<4;i++){
+        console.log("Masina cu nr " + [i+1] + " este " + masini[i]);
+                    }
+
+
+//  Cerinta 3 : o functie care primeste 2 parametrii numerici si afiseaza produsul lor in consola asa:
+// "Produsul numerelor este X.";
+
+
+inmultire = (x,y) =>{
+
+        console.log("Produsul numerelor x si y este = " + x*y);
+                    }   
+inmultire(10,17);                                     
+
+
+//  Cerinta 4 :o functie care primeste ca parametru un nume si sexul persoanei (in format string de
+// genul m sau f) iar apoi afiseaza in consola "Salut domnule/doamna X." - domnule
+// sau doarmna o sa fie afisat pe baza sexului;
+
+
+function datePersonale (nume,sex){
+    let a;
+    if(sex === true){
+        a=" domnule ";
+                    }
+        else{
+        a=" doamna ";
+            }
+        console.log("Salut " + a + nume);
+                                }
+    
+datePersonale("George",true);
+    
+datePersonale("Alina",false);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let nume = "George";
+// let sex= "m";
+// function numeSex(nume,sex){
+//     if(sex="m"){
+//         console.log("Buna ziua domnule " + nume);
+//                 }
+//     else if(sex="f"){
+//         console.log("Buna ziua doamna " + nume);
+//                     }            
+
+//                             }
+// numeSex(nume,sex);                          
+
+
+
+
+
+
+</script>
+
